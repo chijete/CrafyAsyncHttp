@@ -11,6 +11,6 @@ Parameters:
 - `$temp_files_path` Absolute path to folder for temporal files (example "/usr/local/crafy_temp_files/")
 ### makeAsyncCurl
 Parameters:
-- `$url Equivalent` Equivalent to curl_setopt($ch, CURLOPT_URL, {this}) (HTTP request target URL).
+- `$url` Equivalent to curl_setopt($ch, CURLOPT_URL, {this}) (HTTP request target URL).
 - `$custom_options` Equivalent to curl_setopt($ch, {$custom_options->key}, {$custom_options->value}) (CURL Options as associative array).
 - `$time_limit` Temporal PHP file execution time limit (Default 0: unlimited).
