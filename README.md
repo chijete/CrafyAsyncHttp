@@ -1,6 +1,14 @@
 # CrafyAsyncHttp
 Simple unidirectional Asynchronous CURL PHP library
 
+This library works on Windows and Linux (Unix).
+
+It is unidirectional: the HTTP request is sent asynchronously, without waiting for the response from the destination server.
+
+## Requirements
+- CURL Library.
+- Access to exec() and popen() functions.
+
 ## Files
 - class.php contains the class.
 - index.php contains an example.
