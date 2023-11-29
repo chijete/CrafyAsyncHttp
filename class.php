@@ -24,7 +24,7 @@ class CrafyAsyncHttp {
       "custom_options" => $custom_options,
     ];
     $data = base64_encode(json_encode($data));
-    $new_file_path = $this->temp_files_path . '/tmpcurl_' . time() . '_' . uniqid() . '.php';
+    $new_file_path = $this->temp_files_path . '/tmpcurl_' . time() . '_' . uniqid() . '_' . random_int(100000000,999999999) . '.php';
     $new_file_content = '
     <?php
       set_time_limit('.$time_limit.');
